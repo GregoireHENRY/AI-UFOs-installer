@@ -34,7 +34,9 @@ Version:
 for further informations, please visit the [website](https://www.sfml-dev.org/).
 
 #### MingGW - The C++ compiler
-As SFML has been written and compiled with the MingGW 7.3.0 64-bit version, you need to get this exact compiler to play the game. Please move the whole folder to your system folders like Lzz and make sure to add the bin/ folder path to your environement system. Thus, you should have access to the [g++.exe](Platform/Windows/mingw64/bin/g++.exe) and [mingw32-make.exe](/Platform/Windows/mingw64/bin/mingw32-make.exe) executable files in the bin/ folder. Check the version 
+As SFML has been written and compiled with the MingGW 7.3.0 64-bit version, you need to get this exact compiler to play the game. Please move the whole folder to your system folders like Lzz and make sure to add the bin/ folder path to your environement system. Thus, you should have access to the [g++.exe](Platform/Windows/mingw64/bin/g++.exe) and [mingw32-make.exe](/Platform/Windows/mingw64/bin/mingw32-make.exe) executable files in the bin/ folder. Check the version of both commands in your Powershell with:
+> g++ --version
+> mingw32-make --version
 for further informations, please visit the [website](http://www.mingw.org/).
 
 ### MacOS users
