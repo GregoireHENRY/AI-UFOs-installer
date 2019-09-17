@@ -10,7 +10,7 @@ LINKS := sfml-graphics \
 		 opengl32
 
 # ==== PROJECT FILES ===========================================================
-NAME := IA-UFO
+NAME := AI-UFOs
 PATH_SRC := ./src/
 PATH_OBJ := ./obj/
 OBJS := user
@@ -39,7 +39,7 @@ process: lazy \
 
 # ==== SUB-PROCESS =============================================================
 lazy:
-	lzz *.IA -sx cc -hx hh -o src
+	lzz *.AI -sx cc -hx hh -o src
 
 builder: $(OBJSF)
 	$(GNU) $(LFLAGS) -o $(NAME) $^ $(ADDF) $(RFLAGS)
