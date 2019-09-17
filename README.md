@@ -8,7 +8,7 @@ Platform is the folder gathering tools you need to run the game depending on you
 You have to download the whole repository and follow the setup to play game.
 Once setup correctly, you have to follow the instruction to learn how to play.
 
-![Game image](AI-UFOs/resources/screenshots/field.png)
+![](AI-UFOs/resources/screenshots/field.png)
 
 ## Setup
 From the folder Platform, open the folder corresponding to your platform.
@@ -38,5 +38,5 @@ You have to improve the code to control your two UFOs to improve their intellige
 To win the game, you have to bring more flags to your base than your opponent.
 You loose a flag if you get collided with less velocity.
 
-![Coding](AI-UFOs/resources/screenshots/coding.png)
-![Compiling](AI-UFOs/resources/screenshots/compiling.png)
+![](AI-UFOs/resources/screenshots/coding.png)
+![](AI-UFOs/resources/screenshots/compiling.png)
