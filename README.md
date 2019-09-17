@@ -19,6 +19,7 @@ There is three folder:
 - SFML is the graphic library corresponding to your platform
 - mingw64 is a C++ compiler
 
+Keep the structure of the repository for SFML/ and AI-UFOs/ at the same place. After the setup, you can delete the folder Platform.
 Please follow the instruction bellow to setup each of these.
 
 #### Lzz - Lazy C++
