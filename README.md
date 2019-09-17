@@ -56,18 +56,19 @@ You loose a flag if you get collided with less velocity.
 To play:
 - edit the code *user.AI*
 - compile it to implement your updates to the game with:
-> mingw32-make
+    > mingw32-make
 
 - if there is no mistake in your code, you can run AI-UFOs to observe your results!
 
 Dimension:
 - board 10000x8000
-- base 10000x8000
+- base width 1000
 
 Physic properties:
 - ground has tiny friction
 - UFO collisions are solid
 - wall collisions are elastic
+
 
 ![](AI-UFOs/resources/screenshots/coding.png)
 ![](AI-UFOs/resources/screenshots/compiling.png)
