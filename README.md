@@ -33,25 +33,41 @@ You have nothing to do as Windows user with SFML because the game is already com
 Version:
 > GCC 7.3.0 MinGW (SEH) - 64-bit
 
-for further informations, please visit the [website](https://www.sfml-dev.org/).
+For further informations, please visit the [website](https://www.sfml-dev.org/).
 
 #### MingGW - The C++ compiler
-As SFML has been written and compiled with the MingGW 7.3.0 64-bit version, you need to get this exact compiler to play the game. Please move the whole folder to your system folders like Lzz and make sure to add the bin/ folder path to your environement system. Thus, you should have access to the [g++.exe](Platform/Windows/mingw64/bin/g++.exe) and [mingw32-make.exe](/Platform/Windows/mingw64/bin/mingw32-make.exe) executable files in the bin/ folder. Check the version of both commands in your Powershell with:
+As SFML has been written and compiled with the MingGW 7.3.0 64-bit version, you need to get this exact compiler to play the game. Please move the whole folder to your system folders like Lzz and make sure to add the [bin/](/Platform/Windows/mingw64/bin/) folder [path to your environement system](https://www.computerhope.com/issues/ch000549.htm). Thus, you should have access to the [g++.exe](Platform/Windows/mingw64/bin/g++.exe) and [mingw32-make.exe](/Platform/Windows/mingw64/bin/mingw32-make.exe) executable files in the [bin/](/Platform/Windows/mingw64/bin/) folder. Check the version of both commands in your Powershell with:
 > g++ --version
 
 and
 > mingw32-make --version
 
-for further informations, please visit the [website](http://www.mingw.org/).
+For further informations, please visit the [website](http://www.mingw.org/).
 
 ### MacOS users
-mdr contactez théo svp theo.mercurio@ipsa.fr
+Please contact theo.mercurio@ipsa.fr
 
 ## How to play
 The game is a 2 VS 2 UFOs fight with artificial intelligence.
-You have to improve the code to control your two UFOs to improve their intelligence.
+You have to improve the given code to control your two UFOs to improve their intelligence.
 To win the game, you have to bring more flags to your base than your opponent.
 You loose a flag if you get collided with less velocity.
+
+To play:
+- edit the code *user.AI*
+- compile it to implement your updates to the game with:
+> mingw32-make
+
+- if there is no mistake in your code, you can run AI-UFOs to observe your results!
+
+Dimension:
+- board 10000x8000
+- base 10000x8000
+
+Physic properties:
+- ground has tiny friction
+- UFO collisions are solid
+- wall collisions are elastic
 
 ![](AI-UFOs/resources/screenshots/coding.png)
 ![](AI-UFOs/resources/screenshots/compiling.png)
