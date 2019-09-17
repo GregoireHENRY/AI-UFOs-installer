@@ -10,15 +10,7 @@
 #define LZZ_INLINE inline
 namespace user
 {
-  extern int nframe;
-}
-namespace user
-{
   extern float pi;
-}
-namespace user
-{
-  extern float mybasex;
 }
 namespace user
 {
