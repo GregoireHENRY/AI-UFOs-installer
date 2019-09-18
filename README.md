@@ -14,7 +14,7 @@ Once setup correctly, you have to follow the instruction to learn how to play.
 From the folder Platform, open the folder corresponding to your platform.
 
 ### Windows users
-There is three folder:
+There is three folders:
 - Lzz is a tool to write the code easier in C++
 - SFML is the graphic library corresponding to your platform
 - mingw64 is a C++ compiler
