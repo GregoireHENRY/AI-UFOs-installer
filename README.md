@@ -3,11 +3,11 @@
 ## Introduction
 The official **AI-UFOs** multi-platform installer.
 
-Follow the instructions in the secion Setup concerning your platform.
+Follow the instructions in the section Setup concerning your platform.
 
 Once installed correctly, read the How to play manual before playing.
 
-![](WIndows/AI-UFOs/resources/screenshots/field.png)
+![](Windows/AI-UFOs/resources/screenshots/field.png)
 
 ## Setup
 Open the folder corresponding to your platform.
@@ -19,7 +19,7 @@ There is four folders:
 - [mingw64/](Windows/mingw64) is a C++ compiler
 - [SFML/](Windows/SFML) is the graphic library
 
-You can move your game folder but **you need to keep the two folders [AI-UFOs/](Windows/AI-UFOs) and [SFML/](Windows/SFML) in the [same folder](Windows/)** as they are presented [here](Windows/).
+You can move your game folder but **you need to keep the two folders [AI-UFOs/](Windows/AI-UFOs) and [SFML/](Windows/SFML) in the same folder** as they are presented [here](Windows/). You can rename the toplevel [Windows/](Windows/) folder, the game and SFML juste need to communicate each other.
 
 #### Lzz - Lazy C++
 Move the executable file [lzz.exe](Windows/Lzz/lzz.exe) to your computer system folders and [add its path to your environement system variables](https://www.computerhope.com/issues/ch000549.htm).
@@ -27,7 +27,8 @@ Move the executable file [lzz.exe](Windows/Lzz/lzz.exe) to your computer system 
 Check in the Powershell if the command:
 > lzz -ver
 
-is available. You might have to relaunch your Powershell.
+is available. You might need to relaunch your Powershell.
+
 For further informations, please visit the [website](http://www.lazycplusplus.com).
 
 #### MingGW - The C++ compiler
