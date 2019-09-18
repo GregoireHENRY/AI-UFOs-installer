@@ -1,43 +1,43 @@
 # AI-UFOs installer
 
 ## Introduction
-This Git repository is the installer of the game **AI-UFOs**.
-AI-UFOs folder is the game folder.
-SFML folder is the graphic library folder.
-Platform is the folder gathering tools you need to run the game depending on your platform.
-You have to download the whole repository and follow the setup to play game.
-Once setup correctly, you have to follow the instruction to learn how to play.
+The official **AI-UFOs** multi-platform installer.
 
-![](AI-UFOs/resources/screenshots/field.png)
+Follow the instructions in the secion Setup concerning your platform.
+
+Once installed correctly, read the How to play manual before playing.
+
+![](WIndows/AI-UFOs/resources/screenshots/field.png)
 
 ## Setup
-From the folder Platform, open the folder corresponding to your platform.
+Open the folder corresponding to your platform.
 
 ### Windows users
-There is three folders:
-- Lzz is a tool to write the code easier in C++
-- SFML is the graphic library corresponding to your platform
-- mingw64 is a C++ compiler
+There is four folders:
+- [AI-UFOs/](Windows/AI-UFOs) is the game folder
+- [Lzz/](Windows/Lzz) is a tool to write C++ header automatically
+- [mingw64/](Windows/mingw64) is a C++ compiler
+- [SFML/](Windows/SFML) is the graphic library
 
-Keep the structure of the repository for SFML/ and AI-UFOs/ at the same place. After the setup, you can delete the folder Platform.
-Please follow the instruction bellow to setup each of these.
+You can move your game folder but **you need to keep the two folders [AI-UFOs/](Windows/AI-UFOs) and [SFML/](Windows/SFML) in the [same folder](Windows/)** as they are presented [here](Windows/).
 
 #### Lzz - Lazy C++
-Move the executable file [lzz.exe](Platform/Windows/Lzz/lzz.exe) to your system folders of your computer and [add its path to your system environement variables](https://www.computerhope.com/issues/ch000549.htm). Check in the Powershell if the command:
+Move the executable file [lzz.exe](Windows/Lzz/lzz.exe) to your computer system folders and [add its path to your environement system variables](https://www.computerhope.com/issues/ch000549.htm).
+
+Check in the Powershell if the command:
 > lzz -ver
 
 is available. You might have to relaunch your Powershell.
 For further informations, please visit the [website](http://www.lazycplusplus.com).
 
-#### SFML - The graphic library
-You have nothing to do as Windows user with SFML because the game is already compiled for it. You can go to the next step.
-Version:
-> GCC 7.3.0 MinGW (SEH) - 64-bit
-
-For further informations, please visit the [website](https://www.sfml-dev.org/).
-
 #### MingGW - The C++ compiler
-As SFML has been written and compiled with the MingGW 7.3.0 64-bit version, you need to get this exact compiler to play the game. Please move the whole folder to your system folders like Lzz and make sure to add the [bin/](/Platform/Windows/mingw64/bin/) folder [path to your environement system](https://www.computerhope.com/issues/ch000549.htm). Thus, you should have access to the [g++.exe](Platform/Windows/mingw64/bin/g++.exe) and [mingw32-make.exe](/Platform/Windows/mingw64/bin/mingw32-make.exe) executable files in the [bin/](/Platform/Windows/mingw64/bin/) folder. Check the version of both commands in your Powershell with:
+As SFML has been written and compiled with the MingGW *7.3.0 64-bit* version, you need to get this exact compiler to play the game.
+
+Please move the [mingw64/](Windows/mingw64) folder to your computer system folders, just like you did for [Lzz/](Windows/Lzz) and make sure to add the [mingw64/bin/](Windows/mingw64/bin) folder path to your [environement system variables](https://www.computerhope.com/issues/ch000549.htm).
+
+Thus, you should have access to the [g++.exe](Windows/mingw64/bin/g++.exe) compiler and the [mingw32-make.exe](/Windows/mingw64/bin/mingw32-make.exe) makefile.
+
+Check the version of both commands in your Powershell with:
 > g++ --version
 
 and
@@ -45,10 +45,17 @@ and
 
 For further informations, please visit the [website](http://www.mingw.org/).
 
+#### SFML - The graphic library
+You have nothing in particular to do except to make sure to keep the [folder structure](Windows/) with [AI-UFOs/](Windows/AI-UFOs).
+
+The game has been compiled with the SFML version *GCC 7.3.0 MinGW (SEH) - 64-bit*.
+
+For further informations, please visit the [website](https://www.sfml-dev.org/).
+
 ### MacOS users
 Please contact theo.mercurio@ipsa.fr
 
-## How to play
+## How to play manual
 The game is a 2 VS 2 UFOs fight with artificial intelligence.
 You have to improve the given code to control your two UFOs to improve their intelligence.
 To win the game, you have to bring more flags to your base than your opponent.
@@ -71,5 +78,5 @@ Physic properties:
 - wall collisions are elastic
 
 
-![](AI-UFOs/resources/screenshots/coding.png)
-![](AI-UFOs/resources/screenshots/compiling.png)
+![](Windows/AI-UFOs/resources/screenshots/coding.png)
+![](Windows/AI-UFOs/resources/screenshots/compiling.png)
