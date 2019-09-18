@@ -1,9 +1,9 @@
+![](Windows/AI-UFOs/resources/media.png)
+
 # AI-UFOs installer
 
 ## Introduction
 The official **AI-UFOs** multi-platform installer. Game based on the CodInGame Thales Hackathon. Follow the instructions in the section Setup concerning your platform. Once installed correctly, read the How to play manual before playing.
-
-![](Windows/AI-UFOs/resources/social-preview.png)
 
 ## Setup
 Open the folder corresponding to your platform.
@@ -49,8 +49,41 @@ The game has been compiled with the SFML version *GCC 7.3.0 MinGW (SEH) - 64-bit
 
 For further informations, please visit the [website](https://www.sfml-dev.org/).
 
+### Linux users
+There is two folders:
+- [AI-UFOs/](Linux/AI-UFOs) is the game folder
+- [Lzz/](Linux/Lzz) is a tool to write C++ header automatically
+
+Install the graphic library SFML by following the [tutorial](https://www.sfml-dev.org/tutorials/2.5/start-linux.php).
+
+#### Lzz - Lazy C++
+Move the file [lzz](Linux/Lzz/lzz) to your computer system folders and add it to the PATH.
+
+Check in the command:
+> lzz -ver
+
+is available.
+
 ### MacOS users
-Please contact theo.mercurio@ipsa.fr
+There is three folders:
+- [AI-UFOs/](macOS/AI-UFOs) is the game folder
+- [Lzz/](macOS/Lzz) is a tool to write C++ header automatically
+- [SFML/](macOS/SFML) is the graphic library
+
+Please contact theo.mercurio@ipsa.fr to complete the installation.
+
+#### Lzz - Lazy C++
+Move the file [lzz](macOS/Lzz/lzz) to your computer system folders and add it to the PATH.
+
+Check in the command:
+> lzz -ver
+
+is available.
+
+For further informations, please visit the [website](http://www.lazycplusplus.com).
+
+#### SFML - The graphic library
+Install the graphic library SFML by following the [tutorial](https://www.sfml-dev.org/tutorials/2.5/start-osx.php).
 
 ## How to play manual
 The game is a 2 VS 2 UFOs fight with artificial intelligence.

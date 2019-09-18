@@ -1,26 +1,26 @@
-// user.hh
+// bot.hh
 //
 
-#ifndef LZZ_user_hh
-#define LZZ_user_hh
+#ifndef LZZ_bot_hh
+#define LZZ_bot_hh
 #include <iostream>
 #include <cmath>
 #include <string>
 #include <vector>
 #define LZZ_INLINE inline
-namespace user
+namespace bot
 {
   extern int nframe;
 }
-namespace user
+namespace bot
 {
   extern float pi;
 }
-namespace user
+namespace bot
 {
   extern float mybasex;
 }
-namespace user
+namespace bot
 {
   std::vector <float> main (std::vector <float> flag, std::vector <float> enemy_flag, std::vector <float> ally1, std::vector <float> ally2, std::vector <float> enemy1, std::vector <float> enemy2);
 }

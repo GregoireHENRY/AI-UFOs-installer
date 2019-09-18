@@ -1,21 +1,23 @@
-#hdr
-#include <iostream>
-#include <cmath>
-#include <string>
-#include <vector>
-#end
-namespace user {
-/* ====================== Do not touch the code above ======================= */
-/* ========================================================================== */
+// bot.cc
+//
 
-/* ======== Define your global variables, functions and classes here ======== */
-int nframe=0;
-float pi=3.14, mybasex;
-
-/* ================= Main function - do not touch the call ================== */
-std::vector<float> main(std::vector<float> flag, std::vector<float> enemy_flag,
-						std::vector<float> ally1, std::vector<float> ally2,
-					    std::vector<float> enemy1, std::vector<float> enemy2)
+#include "bot.hh"
+#define LZZ_INLINE inline
+namespace bot
+{
+  int nframe =0;
+}
+namespace bot
+{
+  float pi =3.14;
+}
+namespace bot
+{
+  float mybasex;
+}
+namespace bot
+{
+  std::vector <float> main (std::vector <float> flag, std::vector <float> enemy_flag, std::vector <float> ally1, std::vector <float> ally2, std::vector <float> enemy1, std::vector <float> enemy2)
 {
 	/*
 	Function called every frame to control your ufos.
@@ -38,7 +40,6 @@ std::vector<float> main(std::vector<float> flag, std::vector<float> enemy_flag,
 
 	float mag1=100, aimx1=enemy_flag[0], aimy1=enemy_flag[1],
 	      mag2=100, aimx2=flag[0], aimy2=flag[1];
-
 	if (enemy_flag[0] == -1) {
 		aimx1=mybasex;
 		aimy1=ally1[1];
@@ -56,7 +57,5 @@ std::vector<float> main(std::vector<float> flag, std::vector<float> enemy_flag,
 
 	return std::vector<float> {mag1,aimx1,aimy1,mag2,aimx2,aimy2};
 }
-
-/* ========================================================================== */
-/* ===================== Do not touch the code bellow ======================= */
 }
+#undef LZZ_INLINE

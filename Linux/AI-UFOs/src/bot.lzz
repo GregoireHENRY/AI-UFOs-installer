@@ -4,7 +4,7 @@
 #include <string>
 #include <vector>
 #end
-namespace user {
+namespace bot {
 /* ====================== Do not touch the code above ======================= */
 /* ========================================================================== */
 
@@ -38,7 +38,6 @@ std::vector<float> main(std::vector<float> flag, std::vector<float> enemy_flag,
 
 	float mag1=100, aimx1=enemy_flag[0], aimy1=enemy_flag[1],
 	      mag2=100, aimx2=flag[0], aimy2=flag[1];
-
 	if (enemy_flag[0] == -1) {
 		aimx1=mybasex;
 		aimy1=ally1[1];
