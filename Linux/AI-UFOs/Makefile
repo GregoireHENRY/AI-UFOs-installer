@@ -1,28 +1,27 @@
 # ==== COMPILER FLAGS ==========================================================
 GNU := g++
-LFLAGS := -g -Ofast -Wall -Wextra
+LFLAGS := -g -Ofast -Wall
 RFLAGS :=
 INCLUDES := 
 LIBRARIES := 
 LINKS := sfml-graphics \
          sfml-audio \
-	 sfml-window \
-	 sfml-system \
-	 GL
+	     sfml-window \
+	     sfml-system \
+	     GL
 
 # ==== PROJECT FILES ===========================================================
 NAME := AI-UFOs
 PATH_SRC := ./src/
 PATH_OBJ := ./obj/
-OBJS := main \
-        tools \
-	sfmltools \
-	Graphics \
-	Ufo \
-	Flag \
-	user \
-	bot
-ADD := 
+OBJS :=	user
+ADD := main \
+       tools \
+       sfmltools \
+       Graphics \
+       Ufo \
+       Flag \
+       bot
 
 # ==== APPLY SETUP =============================================================
 OBJSO := $(addsuffix .o, $(OBJS))
@@ -36,14 +35,10 @@ LIBFLAGS := $(LINKS) $(LIBRARIES) $(INCLUDES)
 
 # ==== PROCESS =================================================================
 process: lazy \
-	 builder
-lazy: lazy_src \
-      lazy_usr
+         builder
 
 # ==== SUB-PROCESS =============================================================
-lazy_src:
-	lzz src/*.lzz -sx cc -hx hh -o src
-lazy_usr:
+lazy:
 	lzz *.AI -sx cc -hx hh -o src
 
 builder: $(OBJSF)
