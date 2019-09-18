@@ -109,5 +109,5 @@ Physic properties:
 - wall collisions are elastic
 
 
-![](resources/screenshots/coding.png)
-![](resources/screenshots/compiling.png)
+![](resources/coding.png)
+![](resources/compiling.png)
