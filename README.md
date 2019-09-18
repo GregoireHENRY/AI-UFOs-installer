@@ -9,21 +9,21 @@ The official **AI-UFOs** multi-platform installer. Game based on the CodInGame T
 Open the folder corresponding to your platform.
 
 ### Windows users
-There is four folders:
+There are four folders:
 - [AI-UFOs/](Windows/AI-UFOs) is the game folder
 - [Lzz/](Windows/Lzz) is a tool to write C++ header automatically
 - [mingw64/](Windows/mingw64) is a C++ compiler
 - [SFML/](Windows/SFML) is the graphic library
 
-You can move your game folder but **you need to keep the two folders [AI-UFOs/](Windows/AI-UFOs) and [SFML/](Windows/SFML) in the same folder** as they are presented [here](Windows/). You can rename the toplevel [Windows/](Windows/) folder, the game and SFML juste need to communicate each other.
+You can move your game folder where ever you want but **you need to keep the two folders [AI-UFOs/](Windows/AI-UFOs) and [SFML/](Windows/SFML) in the same folder** as they are presented [here](Windows/). You can rename the toplevel [Windows/](Windows/) folder, the game and SFML juste need to communicate each other.
 
 #### Lzz - Lazy C++
 Move the executable file [lzz.exe](Windows/Lzz/lzz.exe) to your computer system folders and [add its path to your environement system variables](https://www.computerhope.com/issues/ch000549.htm).
 
-Check if the Powershell if the command:
+Check if the Powershell command is available:
 > lzz -ver
 
-is available. You might need to relaunch your Powershell.
+You might need to relaunch your Powershell.
 
 For further informations, please visit the [website](http://www.lazycplusplus.com).
 
@@ -50,7 +50,7 @@ The game has been compiled with the SFML version *GCC 7.3.0 MinGW (SEH) - 64-bit
 For further informations, please visit the [website](https://www.sfml-dev.org/).
 
 ### Linux users
-There is two folders:
+There are two folders:
 - [AI-UFOs/](Linux/AI-UFOs) is the game folder
 - [Lzz/](Linux/Lzz) is a tool to write C++ header automatically
 
@@ -59,13 +59,11 @@ Install the graphic library SFML by following the [tutorial](https://www.sfml-de
 #### Lzz - Lazy C++
 Move the file [lzz](Linux/Lzz/lzz) to your computer system folders and add it to the PATH.
 
-Check if the command:
+Check if the command is available:
 > lzz -ver
 
-is available.
-
 ### MacOS users
-There is three folders:
+There are three folders:
 - [AI-UFOs/](macOS/AI-UFOs) is the game folder
 - [Lzz/](macOS/Lzz) is a tool to write C++ header automatically
 - [SFML/](macOS/SFML) is the graphic library
@@ -75,10 +73,8 @@ Please contact theo.mercurio@ipsa.fr to complete the installation.
 #### Lzz - Lazy C++
 Move the file [lzz](macOS/Lzz/lzz) to your computer system folders and add it to the PATH.
 
-Check if the command:
+Check if the command is available:
 > lzz -ver
-
-is available.
 
 For further informations, please visit the [website](http://www.lazycplusplus.com).
 
