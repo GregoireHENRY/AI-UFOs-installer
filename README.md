@@ -1,9 +1,9 @@
-![](Windows/AI-UFOs/resources/media.png)
+![](resources/media.png)
 
 # AI-UFOs installer
 
 ## Introduction
-The official **AI-UFOs** multi-platform installer. Game based on the CodInGame Thales Hackathon. Follow the instructions in the section Setup concerning your platform. Once installed correctly, read the How to play manual before playing.
+The official **AI-UFOs** multi-platform installer. Game based on the CodInGame Thales Hackathon. Follow the instructions in the section Setup concerning your platform. Once installed correctly, read the How to play section before playing.
 
 ## Setup
 Open the folder corresponding to your platform.
@@ -20,7 +20,7 @@ You can move your game folder but **you need to keep the two folders [AI-UFOs/](
 #### Lzz - Lazy C++
 Move the executable file [lzz.exe](Windows/Lzz/lzz.exe) to your computer system folders and [add its path to your environement system variables](https://www.computerhope.com/issues/ch000549.htm).
 
-Check in the Powershell if the command:
+Check if the Powershell if the command:
 > lzz -ver
 
 is available. You might need to relaunch your Powershell.
@@ -59,7 +59,7 @@ Install the graphic library SFML by following the [tutorial](https://www.sfml-de
 #### Lzz - Lazy C++
 Move the file [lzz](Linux/Lzz/lzz) to your computer system folders and add it to the PATH.
 
-Check in the command:
+Check if the command:
 > lzz -ver
 
 is available.
@@ -75,7 +75,7 @@ Please contact theo.mercurio@ipsa.fr to complete the installation.
 #### Lzz - Lazy C++
 Move the file [lzz](macOS/Lzz/lzz) to your computer system folders and add it to the PATH.
 
-Check in the command:
+Check if the command:
 > lzz -ver
 
 is available.
@@ -85,7 +85,7 @@ For further informations, please visit the [website](http://www.lazycplusplus.co
 #### SFML - The graphic library
 Install the graphic library SFML by following the [tutorial](https://www.sfml-dev.org/tutorials/2.5/start-osx.php).
 
-## How to play manual
+## How to play
 The game is a 2 VS 2 UFOs fight with artificial intelligence.
 You have to improve the given code to control your two UFOs to improve their intelligence.
 To win the game, you have to bring more flags to your base than your opponent.
@@ -93,7 +93,8 @@ You loose a flag if you get collided with less velocity.
 
 To play:
 - edit the code *user.AI*
-- compile it to implement your updates to the game with:
+- compile it to implement your updates to the game with the *make* command.
+For Windows users:
     > mingw32-make
 
 - if there is no mistake in your code, you can run AI-UFOs to observe your results!
@@ -108,5 +109,5 @@ Physic properties:
 - wall collisions are elastic
 
 
-![](Windows/AI-UFOs/resources/screenshots/coding.png)
-![](Windows/AI-UFOs/resources/screenshots/compiling.png)
+![](resources/screenshots/coding.png)
+![](resources/screenshots/compiling.png)
