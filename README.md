@@ -3,7 +3,7 @@
 ## Introduction
 The official **AI-UFOs** multi-platform installer. Game based on the CodInGame Thales Hackathon. Follow the instructions in the section Setup concerning your platform. Once installed correctly, read the How to play manual before playing.
 
-![](Windows/AI-UFOs/resources/screenshots/field.png)
+![](Windows/AI-UFOs/resources/screenshots/media-preview.png)
 
 ## Setup
 Open the folder corresponding to your platform.
