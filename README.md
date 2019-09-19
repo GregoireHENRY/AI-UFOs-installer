@@ -88,8 +88,8 @@ To win the game, you have to bring more flags to your base than your opponent.
 You loose a flag if you get collided with less velocity.
 
 To play:
-- edit the code *user.AI*
-- compile it to implement your updates to the game with the *make* command.
+- edit the code *user.AI* in the game folder
+- compile it to implement your updates to the game with the *make* command in the game folder.
 For Windows users:
     > mingw32-make
 
