@@ -2,8 +2,8 @@
 GNU := g++
 LFLAGS := -g -Ofast -Wall
 RFLAGS :=
-INCLUDES := ../SFML/include ../SFML/bin
-LIBRARIES := ../SFML/lib ../SFML/bin
+INCLUDES := ../SFML/include
+LIBRARIES := ../SFML/lib
 LINKS := sfml-graphics \
          sfml-audio \
 		 sfml-window \

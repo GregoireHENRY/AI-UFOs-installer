@@ -23,7 +23,7 @@ namespace user
 		1 vector of (1x6)[float] returning magnitude and the direction of power
 		engine for both ally UFOs.
 	*/
-	float mag1=0.f, aimx1=0.f, aimy1=0.f, mag2=0.f, aimx2=0.f, aimy2=0.f;
+	float mag1=10.f, aimx1=5000.f, aimy1=4000.f, mag2=10.f, aimx2=5000.f, aimy2=4000.f;
 
 	return std::vector<float> {mag1,aimx1,aimy1,mag2,aimx2,aimy2};
 }
